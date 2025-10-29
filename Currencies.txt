@@ -207,7 +207,7 @@ Turks and Caicos Island#//#USD#//#US Dollar#//#1.000000
 Tuvalu#//#AUD#//#Australian Dollar#//#1.451000
 Uganda#//#UGX#//#Uganda Shilling#//#3690.669922
 Ukraine#//#UAH#//#Ukraine Hryvnia#//#37.000000
-United Arab Emirates#//#AED#//#United Arab Emirates Dirham#//#3.700000
+United Arab Emirates#//#AED#//#United Arab Emirates Dirham#//#3.673000
 United Kingdom#//#GBP#//#U.K. Pound#//#0.804000
 Uruguay#//#UYU#//#Uruguay Peso#//#38.525002
 Uzbekistan#//#UZS#//#Uzbekistan Sum#//#11245.000000
