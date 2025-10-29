@@ -45,6 +45,9 @@ E:\Users\m\source\repos\Project 13 [ Bank System & Currency Exchange ( OOP ) ]\c
 E:\Users\m\source\repos\Project 13 [ Bank System & Currency Exchange ( OOP ) ]\clsTotalBalancesScreen.h(61,75): warning C4244: 'argument': conversion from 'double' to '__int64', possible loss of data
   (compiling source file 'Project%2013%20[%20Bank%20System%20&%20Currency%20Exchange%20(%20OOP%20)%20].cpp')
   
+E:\Users\m\source\repos\Project 13 [ Bank System & Currency Exchange ( OOP ) ]\clsCurrency.h(25,100): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Project%2013%20[%20Bank%20System%20&%20Currency%20Exchange%20(%20OOP%20)%20].cpp')
+  
 E:\Users\m\source\repos\Project 13 [ Bank System & Currency Exchange ( OOP ) ]\clsBankClient.h(323,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
 E:\Users\m\source\repos\Project 13 [ Bank System & Currency Exchange ( OOP ) ]\clsUser.h(308,1): warning C4715: 'clsUser::Save': not all control paths return a value
   Project 13 [ Bank System & Currency Exchange ( OOP ) ].vcxproj -> E:\Users\m\source\repos\Project 13 [ Bank System & Currency Exchange ( OOP ) ]\x64\Debug\Project 13 [ Bank System & Currency Exchange ( OOP ) ].exe

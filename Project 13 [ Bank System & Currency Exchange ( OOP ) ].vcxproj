@@ -126,6 +126,7 @@
     <ClCompile Include="Project 13 [ Bank System &amp; Currency Exchange ( OOP ) ].cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="clsCurrenciesListScreen.h" />
     <ClInclude Include="clsCurrency.h" />
     <ClInclude Include="clsCurrencyExchangeMainScreen.h" />
   </ItemGroup>

@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "clsScreen.h"
+#include "clsCurrenciesListScreen.h"
 
 using namespace std;
 
@@ -19,9 +20,9 @@ class clsCurrencyExchangeMainScreen : protected clsScreen
         return Choice;
     }
 
-    static void _GoBackToCurrencyExchangeMenue()
+    static void _GoBackToCurrenciesMenue()
     {
-        cout << "\n\nPress any key to go back to Currency Exchange Menue...";
+        cout << "\n\nPress any key to go back to Currencies Menue...";
 
         system("pause>0");
         ShowCurrenciesMenue();
@@ -29,7 +30,8 @@ class clsCurrencyExchangeMainScreen : protected clsScreen
 
     static void _ShowCurrenciesListScreen()
     {
-        cout << "\nList Currencies Screen will be here.\n";
+        // cout << "\n Currencies List Screen will be here.\n";
+        clsCurrenciesListScreen::ShowCurrenciesListScreen();
     }
 
     static void _ShowFindCurrencyScreen()
@@ -39,7 +41,7 @@ class clsCurrencyExchangeMainScreen : protected clsScreen
 
     static void _ShowUpdateCurrencyRateScreen()
     {
-        cout << "\nUpdate Rate Screen will be here.\n";
+        cout << "\nUpdate Currency Rate Screen will be here.\n";
     }
 
     static void _ShowCurrencyCalculatorScreen()
@@ -54,25 +56,25 @@ class clsCurrencyExchangeMainScreen : protected clsScreen
         case clsCurrencyExchangeMainScreen::eListCurrencies:
             system("cls");
             _ShowCurrenciesListScreen();
-            _GoBackToCurrencyExchangeMenue();
+            _GoBackToCurrenciesMenue();
             break;
 
         case clsCurrencyExchangeMainScreen::eFindCurrency:
             system("cls");
             _ShowFindCurrencyScreen();
-            _GoBackToCurrencyExchangeMenue();
+            _GoBackToCurrenciesMenue();
             break;
 
         case clsCurrencyExchangeMainScreen::eUpdateCurrencyRate:
             system("cls");
             _ShowUpdateCurrencyRateScreen();
-            _GoBackToCurrencyExchangeMenue();
+            _GoBackToCurrenciesMenue();
             break;
 
         case clsCurrencyExchangeMainScreen::eCurrencyCalculator:
             system("cls");
             _ShowCurrencyCalculatorScreen();
-            _GoBackToCurrencyExchangeMenue();
+            _GoBackToCurrenciesMenue();
             break;
 
         case clsCurrencyExchangeMainScreen::eMainMenue:
